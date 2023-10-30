@@ -1,52 +1,36 @@
-import eTicket from "./assets/e-ticketing.svg";
+import Eticket from "./assets/Eticket";
+
 const Services = () => {
   return (
-    <div className="services">
-      <section className="header-text">
-        <h4>Our Services</h4>
-        <section>
-          We have Services that lead the way to better the success of your event
-        </section>
+    <section className="main-section">
+      <h4 className="mini-header">We work for your best experience</h4>
+      <h1 className="header">Our Services</h1>
+      <section className="desc-text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error,
+        doloribus.
       </section>
-      <section className="services-holder">
-        <section className="service">
-          <section className="img-holder">
-            <img src={eTicket} alt="" />
-          </section>
-          <h3>E-ticketing Solution</h3>
-          <section className="service-text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste
-            suscipit consectetur reprehenderit ab in alias earum placeat. Maxime
-            voluptates ipsum at, doloremque quo non, exercitationem pariatur,
-            sit quaerat qui fugiat!
-          </section>
+      <section className="service">
+        <section className="icon-text">
+          <Eticket />
+          <span>E-ticketing system</span>
         </section>
-        <section className="service">
-          <section className="img-holder">
-            <img src={eTicket} alt="" />
-          </section>
-          <h3>E-ticketing Solution</h3>
-          <section className="service-text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste
-            suscipit consectetur reprehenderit ab in alias earum placeat. Maxime
-            voluptates ipsum at, doloremque quo non, exercitationem pariatur,
-            sit quaerat qui fugiat!
-          </section>
-        </section>
-        <section className="service">
-          <section className="img-holder">
-            <img src={eTicket} alt="" />
-          </section>
-          <h3>E-ticketing Solution</h3>
-          <section className="service-text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste
-            suscipit consectetur reprehenderit ab in alias earum placeat. Maxime
-            voluptates ipsum at, doloremque quo non, exercitationem pariatur,
-            sit quaerat qui fugiat!
-          </section>
-        </section>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt tenetur impedit maxime animi praesentium earum corporis debitis at cupiditate quaerat amet modi, fugiat unde fuga eaque sint consequatur quia excepturi!</p>
       </section>
-    </div>
+      <section className="service">
+        <section className="icon-text">
+          <Eticket />
+          <span>E-ticketing system</span>
+        </section>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt tenetur impedit maxime animi praesentium earum corporis debitis at cupiditate quaerat amet modi, fugiat unde fuga eaque sint consequatur quia excepturi!</p>
+      </section>
+      <section className="service">
+        <section className="icon-text">
+          <Eticket />
+          <span>E-ticketing system</span>
+        </section>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt tenetur impedit maxime animi praesentium earum corporis debitis at cupiditate quaerat amet modi, fugiat unde fuga eaque sint consequatur quia excepturi!</p>
+      </section>
+    </section>
   );
 };
 export default Services;

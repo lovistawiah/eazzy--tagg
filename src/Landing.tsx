@@ -1,25 +1,17 @@
 import groupImg from "./assets/group.png"
 const Landing = () => {
   return (
-    <div>
-      <img  src={groupImg} alt="" className="bg-banner"/>
+    <div className="landing-page">
+      <img src={groupImg} alt="" className="bg-banner" />
       <div className="over-text">
-        <section className="first-cta-text">
-          <span className="body-text"> We have Digital Registration</span>
-          <span className="brand-text">
-            experience and <span className="info-text">beyond</span>
-          </span>
-        </section>
-        <section className="second-cta-text">
-          Digital event platform designed to offer every global business the
-          real exhibition feeling
-        </section>
-        <section className="cta">
-          <button className="cta-btn">Request Demo</button>
-          <a href="#" className="pricing-link">
-            About Us
-          </a>
-        </section>
+        <section className="welcome-message">hello,</section>
+        <p className="intro-text">
+          We are <span>Event Registration</span>
+        </p>
+        <p className="short-bio">
+          company. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam commodi deleniti
+        </p>
+      <button className="btn">Request Demo</button>
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Logo from "./assets/logo3.svg";
+import Logo from "./assets/logo.png";
 import MenuOpen from "./MenuOpen";
 import MenuClose from "./MenuClose";
 const Navigation = () => {
@@ -11,10 +11,8 @@ const Navigation = () => {
   return (
     <>
       <nav className="nav">
-        {/* adding div to make the logo appear center */}
-        <div></div>
         <a href="#">
-          <img src={Logo} alt="logo" />
+          <img src={Logo} alt="logo" className="menu" />
         </a>
         <div onClick={handleMenuToggle}>
           {isOpen ? <MenuOpen /> : <MenuClose />}
@@ -46,6 +44,7 @@ const Navigation = () => {
           </li>
         </ul>
       </section>
+  
     </>
   );
 };
