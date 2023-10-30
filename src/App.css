@@ -572,24 +572,26 @@ form {
   font-size: 17px;
   padding-bottom: 7px;
 }
+
 .input input {
   width: 80%;
   height: 38px;
-  background-color: var(--primary-black-500);
+  background-color: var(--input-bg-color);
   border-radius: 4px;
   outline: none;
-  border: 1px solid var(--primary-black-500);
+  border: 1px solid var(--input-bg-color);
   padding: 10px;
   font-size: 15px;
   color: var(--primary-white-600);
 }
+
 .input textarea {
   width: 90%;
   height: 200px;
-  background-color: var(--primary-black-500);
+  background-color: var(--input-bg-color);
   color: var(--primary-white-500);
   outline: none;
-  border: 1px solid var(--primary-black-500);
+  border: 1px solid var(--input-bg-color);
   padding: 10px;
   font-size: 15px;
   resize: vertical;
@@ -601,13 +603,111 @@ form button {
   padding: 10px;
   outline: none;
   border-radius: 5px;
-border: 1px solid var(--brand-600);
-font-size: 17px;
-background-color: var(--bg);
-text-align: center;
-color: var(--primary-white-100);
+  border: 1px solid var(--brand-600);
+  font-size: 17px;
+  background-color: var(--bg);
+  text-align: center;
+  color: var(--primary-white-100);
 }
 
 form button:hover {
   background-color: var(--brand-600);
+}
+
+.footer-img {
+  width: 50px;
+  height: 50px;
+
+}
+
+.footer-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer-desc {
+  font-size: 14px;
+  padding: 20px 0;
+}
+
+.sub-features {
+  display: flex;
+  padding-right: 20px;
+}
+
+.sub-features .header-section {
+  padding-right: 20px;
+}
+
+.header-section h3,.enquiry-text {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.header-section p {
+  font-size: 14px;
+  color: var(--primary-white-600);
+}
+
+.enquiry-text button {
+  width: 150px;
+  height: 38px;
+  background-color: var(--info-bg-color);
+  color: var(--primary-white-100);
+  outline: none;
+  border: 1px solid var(--brand-600);
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.enquiry-text button:hover {
+  background-color: var(--brand-600);
+}
+
+
+footer .bolder-phone {
+  margin-top: 30px;
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  color: var(--brand-600);
+}
+
+footer .line {
+  width: 95%;
+  height: 1px;
+  background-color: var(--primary-black-500);
+  margin-top: 10px;
+}
+
+footer .copyright {
+  font-size: 14px;
+  font-weight: light;
+  color: var(--primary-white-600);
+  text-align: center;
+  padding-top: 10px;
+}
+
+.social-platform {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.social-platform img {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  filter: grayscale(1);
+
+
+}
+
+.social-platform img:hover {
+  filter: grayscale(0);
 }

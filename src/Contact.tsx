@@ -12,6 +12,22 @@ const Contact = () => {
         cupiditate!
       </section>
 
+      <form>
+        <div className="input">
+          <label htmlFor="name">Name</label>
+          <input type="text" id="name" placeholder="Enter your name" />
+        </div>
+        <div className="input">
+          <label htmlFor="email">Email</label>
+          <input type="email" id="name" placeholder="Enter your email" />
+        </div>
+        <div className="input">
+          <label htmlFor="message">Message</label>
+
+          <textarea name="" id="message"></textarea>
+        </div>
+        <button className="send">Send</button>
+      </form>
       <section className="sub-section">
         <section className="info-main">
           <section className="logo-text">
@@ -44,22 +60,6 @@ const Contact = () => {
           </section>
         </section>
       </section>
-      <form>
-        <div className="input">
-          <label htmlFor="name">Name</label>
-          <input type="text" id="name" placeholder="Enter your name" />
-        </div>
-        <div className="input">
-          <label htmlFor="email">Email</label>
-          <input type="email" id="name" placeholder="Enter your email" />
-        </div>
-        <div className="input">
-          <label htmlFor="message">Message</label>
-
-          <textarea name="" id="message"></textarea>
-        </div>
-        <button className="send">Send</button>
-      </form>
     </section>
   );
 };

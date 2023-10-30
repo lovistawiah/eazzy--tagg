@@ -9,6 +9,7 @@ import Services from "./Services";
 import Work from "./Work";
 import Pricing from "./Pricing";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Work />
       <Pricing />
       <Contact />
+      <Footer />
     </>
   );
 }
