@@ -11,11 +11,11 @@ const Team = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
         voluptatum!
       </section>
-      <section className="team">
+      <section className="person">
         <section className="img">
           <img src={person1} alt="head of operations" />
         </section>
-        <section className="team-info">
+        <section className="person-info">
             <section className='name'>Perry E. Sarbah
             </section>
             <section className="position">
@@ -23,11 +23,11 @@ const Team = () => {
             </section>
         </section>
       </section>
-      <section className="team">
+      <section className="person">
         <section className="img">
           <img src={person2} alt="head of operations" />
         </section>
-        <section className="team-info">
+        <section className="person-info">
             <section className='name'>Edmund Adjetey
             </section>
             <section className="position">
@@ -35,11 +35,11 @@ const Team = () => {
             </section>
         </section>
       </section>
-      <section className="team">
+      <section className="person">
         <section className="img">
           <img src={person3} alt="head of operations" />
         </section>
-        <section className="team-info">
+        <section className="person-info">
             <section className='name'>Theresa Osei
             </section>
             <section className="position">
@@ -47,11 +47,11 @@ const Team = () => {
             </section>
         </section>
       </section>
-      <section className="team">
+      <section className="person">
         <section className="img">
           <img src={person4} alt="head of operations" />
         </section>
-        <section className="team-info">
+        <section className="person-info">
             <section className='name'>Michael Oduro-Amoako
             </section>
             <section className="position">

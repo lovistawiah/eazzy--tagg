@@ -1,8 +1,16 @@
-import Creativity from './assets/Creativity'
 import team from './assets/team.jpg'
-import ghAviation from "./assets/gh aviation.png"
 import mcdan from './assets/mcdan.png'
 import numbersBg from './assets/numbers-bg.jpg'
+import interPlast from './assets/interplast.png'
+import fda from './assets/fda.png'
+import commerce from './assets/commerce.png'
+import fintech from './assets/fintech.png'
+import instinctWave from './assets/instinct wave.png'
+import cimg from './assets/cimg.png'
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+import { faMedal,faLightbulb, faBoltLightning, faHandshake } from '@fortawesome/free-solid-svg-icons'
 const AboutUs = () => {
   return (
     <section className="main-section">
@@ -20,44 +28,44 @@ const AboutUs = () => {
 
       <section className="main-info-holder">
         <section className="info">
-          <Creativity />
+          <FontAwesomeIcon icon={faLightbulb} />
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
         </section>
         <section className="info">
-          <Creativity />
+          <FontAwesomeIcon icon={faMedal} />
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
         </section>
         <section className="info">
-          <Creativity />
+          <FontAwesomeIcon icon={faBoltLightning} />
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
         </section>
         <section className="info">
-          <Creativity />
+          <FontAwesomeIcon icon={faHandshake} />
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
         </section>
       </section>
 
       <section className="clients">
         <section className="client">
-          <img src={ghAviation} alt="" />
+          <img src={fda} alt="" />
+        </section>
+        <section className="client">
+          <img src={interPlast} alt="" />
         </section>
         <section className="client">
           <img src={mcdan} alt="" />
         </section>
         <section className="client">
-          <img src={mcdan} alt="" />
+          <img src={commerce} alt="" />
         </section>
         <section className="client">
-          <img src={mcdan} alt="" />
+          <img src={fintech} alt="" />
         </section>
         <section className="client">
-          <img src={mcdan} alt="" />
+          <img src={instinctWave} alt="" />
         </section>
         <section className="client">
-          <img src={mcdan} alt="" />
-        </section>
-        <section className="client">
-          <img src={mcdan} alt="" />
+          <img src={cimg} alt="" />
         </section>
       </section>
 

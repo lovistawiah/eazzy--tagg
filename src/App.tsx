@@ -1,30 +1,16 @@
-import SubIntro from "./SubIntro";
+import {BrowserRouter,Routes,Route } from "react-router-dom";
+
 import "./App.css";
-import Landing from "./Landing";
-
-import Navigation from "./Navigation";
-import AboutUs from "./AboutUs";
-import Team from "./Team";
-import Services from "./Services";
-import Work from "./Work";
-import Pricing from "./Pricing";
-import Contact from "./Contact";
-import Footer from "./Footer";
-
+import Home from "./Home";
 function App() {
   return (
-    <>
-      <Navigation />
-      <Landing />
-      <SubIntro />
-      <AboutUs />
-      <Team />
-      <Services />
-      <Work />
-      <Pricing />
-      <Contact />
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route>
+        <Route path="/" element={<Home/>} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

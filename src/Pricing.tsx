@@ -1,4 +1,5 @@
-import Check from "./assets/Check";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
 const Pricing = () => {
   return (
     <section className="main-section">
@@ -20,19 +21,19 @@ const Pricing = () => {
           <section className="features">
             <h5 className="feature-text">Top Features:</h5>
             <p className="feature">
-              <Check />
+              <FontAwesomeIcon icon={faCircleCheck} />
               <span>Onsite Registration</span>
             </p>
             <p className="feature">
-              <Check />
+               <FontAwesomeIcon icon={faCircleCheck} />
               <span>Digital Data Presentation</span>
             </p>
             <p className="feature">
-              <Check />
+               <FontAwesomeIcon icon={faCircleCheck} />
               <span>Instant Participant Rating</span>
             </p>
             <p className="feature">
-              <Check />
+               <FontAwesomeIcon icon={faCircleCheck} />
               <span>Thank You SMS After Event</span>
             </p>
           </section>
@@ -53,31 +54,31 @@ const Pricing = () => {
           <section className="features">
             <h5 className="feature-text">Top Features:</h5>
             <p className="feature">
-              <Check />
+               <FontAwesomeIcon icon={faCircleCheck} />
               <span>Onsite Registration</span>
             </p>
             <p className="feature">
-              <Check />
+               <FontAwesomeIcon icon={faCircleCheck} />
               <span>Digital Data Presentation</span>
             </p>
             <p className="feature">
-              <Check />
+               <FontAwesomeIcon icon={faCircleCheck} />
               <span>Instant Participant Rating</span>
             </p>
             <p className="feature">
-              <Check />
+               <FontAwesomeIcon icon={faCircleCheck} />
               <span>Thank You SMS After Event</span>
             </p>
             <p className="feature">
-              <Check />
+               <FontAwesomeIcon icon={faCircleCheck} />
               <span>Customized App for Registration</span>
             </p>
             <p className="feature">
-              <Check />
+               <FontAwesomeIcon icon={faCircleCheck} />
               <span>Online Registration</span>
             </p>
             <p className="feature">
-              <Check />
+               <FontAwesomeIcon icon={faCircleCheck} />
               <span>Data Hosting for 3 months</span>
             </p>
           </section>
@@ -98,31 +99,31 @@ const Pricing = () => {
           <section className="features">
             <h5 className="feature-text">Top Features:</h5>
             <p className="feature">
-              <Check />
+               <FontAwesomeIcon icon={faCircleCheck} />
               <span>Onsite Registration</span>
             </p>
             <p className="feature">
-              <Check />
+               <FontAwesomeIcon icon={faCircleCheck} />
               <span>Digital Data Presentation</span>
             </p>
             <p className="feature">
-              <Check />
+               <FontAwesomeIcon icon={faCircleCheck} />
               <span>Instant Participant Rating</span>
             </p>
             <p className="feature">
-              <Check />
+               <FontAwesomeIcon icon={faCircleCheck} />
               <span>Thank You SMS After Event</span>
             </p>
             <p className="feature">
-              <Check />
+               <FontAwesomeIcon icon={faCircleCheck} />
               <span>Customized App for Registration</span>
             </p>
             <p className="feature">
-              <Check />
+               <FontAwesomeIcon icon={faCircleCheck} />
               <span>Online Registration</span>
             </p>
             <p className="feature">
-              <Check />
+               <FontAwesomeIcon icon={faCircleCheck} />
               <span>Life Time Data Hosting</span>
             </p>
           </section>
@@ -141,31 +142,31 @@ const Pricing = () => {
           <section className="features">
             <h5 className="feature-text">Top Features:</h5>
             <p className="feature">
-              <Check />
+               <FontAwesomeIcon icon={faCircleCheck} />
               <span>Onsite Registration</span>
             </p>
             <p className="feature">
-              <Check />
+               <FontAwesomeIcon icon={faCircleCheck} />
               <span>Digital Data Presentation</span>
             </p>
             <p className="feature">
-              <Check />
+               <FontAwesomeIcon icon={faCircleCheck} />
               <span>Instant Participant Rating</span>
             </p>
             <p className="feature">
-              <Check />
+               <FontAwesomeIcon icon={faCircleCheck} />
               <span>Thank You SMS After Event</span>
             </p>
             <p className="feature">
-              <Check />
+               <FontAwesomeIcon icon={faCircleCheck} />
               <span>Customized App for Registration</span>
             </p>
             <p className="feature">
-              <Check />
+               <FontAwesomeIcon icon={faCircleCheck} />
               <span>Online Registration</span>
             </p>
             <p className="feature">
-              <Check />
+               <FontAwesomeIcon icon={faCircleCheck} />
               <span>Life Time Data Hosting</span>
             </p>
           </section>

@@ -1,9 +1,10 @@
 import footerLogo from "./assets/logo2.png";
-import Phone from "./assets/Phone";
 import fb from "./assets/fb.png";
 import twitter from "./assets/twitter.png";
 import instragram from "./assets/instagram.png";
 import linkedIn from "./assets/linkedin.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -19,6 +20,7 @@ const Footer = () => {
 
         <section className="header-section">
           <h3>Company</h3>
+          {/* make it a link */}
           <p>Our Services</p>
           <p>Team</p>
           <p>Pricing</p>
@@ -31,7 +33,7 @@ const Footer = () => {
       </section>
 
       <section className="bolder-phone">
-        <Phone />
+        <FontAwesomeIcon icon={faPhone} />
         <span>
           <h2>024 476 8737</h2>
         </span>

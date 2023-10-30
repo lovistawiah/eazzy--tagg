@@ -1,4 +1,14 @@
-import Eticket from "./assets/Eticket";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faArrowRight,
+  faDigitalTachograph,
+  faGlobe,
+  faPenToSquare,
+  faPrint,
+  faTicket,
+  faUserTie,
+} from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -9,26 +19,101 @@ const Services = () => {
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error,
         doloribus.
       </section>
-      <section className="service">
-        <section className="icon-text">
-          <Eticket />
-          <span>E-ticketing system</span>
+      {/* service */}
+      <section className="services">
+        <section className="service">
+          <FontAwesomeIcon icon={faTicket} className="service-logo" />
+          <h3 className="service-name">E-ticketing Solutions</h3>
+          <section className="service-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
+            ratione, incidunt nemo et distinctio commodi. At, id quam
+            perferendis asperiores repellat, reprehenderit voluptates illum
+            facere qui omnis porro quis rerum.
+          </section>
+          <Link to="#" className="service-link">
+            Know more
+            <FontAwesomeIcon icon={faArrowRight} className="link-icon" />
+          </Link>
         </section>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt tenetur impedit maxime animi praesentium earum corporis debitis at cupiditate quaerat amet modi, fugiat unde fuga eaque sint consequatur quia excepturi!</p>
-      </section>
-      <section className="service">
-        <section className="icon-text">
-          <Eticket />
-          <span>E-ticketing system</span>
+
+        <section className="service">
+          <FontAwesomeIcon icon={faUserTie} className="service-logo" />
+          <h3 className="service-name">Tablet/Stand Rental</h3>
+          <section className="service-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
+            ratione, incidunt nemo et distinctio commodi. At, id quam
+            perferendis asperiores repellat, reprehenderit voluptates illum
+            facere qui omnis porro quis rerum.
+          </section>
+          <Link to="#" className="service-link">
+            Know more
+            <FontAwesomeIcon icon={faArrowRight} className="link-icon" />
+          </Link>
         </section>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt tenetur impedit maxime animi praesentium earum corporis debitis at cupiditate quaerat amet modi, fugiat unde fuga eaque sint consequatur quia excepturi!</p>
-      </section>
-      <section className="service">
-        <section className="icon-text">
-          <Eticket />
-          <span>E-ticketing system</span>
+        <section className="service">
+          <FontAwesomeIcon
+            icon={faDigitalTachograph}
+            className="service-logo"
+          />
+          <h3 className="service-name">Digital Event Registration</h3>
+          <section className="service-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
+            ratione, incidunt nemo et distinctio commodi. At, id quam
+            perferendis asperiores repellat, reprehenderit voluptates illum
+            facere qui omnis porro quis rerum.
+          </section>
+          <Link to="#" className="service-link">
+            Know more
+            <FontAwesomeIcon icon={faArrowRight} className="link-icon" />
+          </Link>
         </section>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt tenetur impedit maxime animi praesentium earum corporis debitis at cupiditate quaerat amet modi, fugiat unde fuga eaque sint consequatur quia excepturi!</p>
+
+        <section className="service">
+          <FontAwesomeIcon icon={faPenToSquare} className="service-logo" />
+          <h3 className="service-name">Bespoke System Development</h3>
+          <section className="service-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
+            ratione, incidunt nemo et distinctio commodi. At, id quam
+            perferendis asperiores repellat, reprehenderit voluptates illum
+            facere qui omnis porro quis rerum.
+          </section>
+          <Link to="#" className="service-link">
+            Know more
+            <FontAwesomeIcon icon={faArrowRight} className="link-icon" />
+          </Link>
+        </section>
+        <section className="service">
+          <FontAwesomeIcon icon={faPrint} className="service-logo" />
+          <h3 className="service-name">General Printing</h3>
+          <section className="service-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
+            ratione, incidunt nemo et distinctio commodi. At, id quam
+            perferendis asperiores repellat, reprehenderit voluptates illum
+            facere qui omnis porro quis rerum.
+          </section>
+          <Link to="#" className="service-link">
+            Know more
+            <FontAwesomeIcon icon={faArrowRight} className="link-icon" />
+          </Link>
+        </section>
+
+        <section className="service">
+          <FontAwesomeIcon
+            icon={faGlobe }
+            className="service-logo"
+          />
+          <h3 className="service-name">Web Development</h3>
+          <section className="service-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
+            ratione, incidunt nemo et distinctio commodi. At, id quam
+            perferendis asperiores repellat, reprehenderit voluptates illum
+            facere qui omnis porro quis rerum.
+          </section>
+          <Link to="#" className="service-link">
+            Know more
+            <FontAwesomeIcon icon={faArrowRight} className="link-icon" />
+          </Link>
+        </section>
       </section>
     </section>
   );

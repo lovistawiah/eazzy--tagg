@@ -86,6 +86,16 @@ h6 {
   padding: 0;
 }
 
+a {
+  color: var(--brand-600);
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 section,
 div,
 p,
@@ -98,11 +108,11 @@ span {
 }
 
 svg {
-  width: 24px;
-  height: 24px;
+  font-size: 24px;
   cursor: pointer;
+
 }
 
 path {
-  fill: var(--brand-600);
+  color: var(--primary-white-500);
 }

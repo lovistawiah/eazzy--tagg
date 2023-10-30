@@ -1,13 +1,13 @@
-import Rocket from "./assets/Rocket";
-import Value from "./assets/Value";
-import Vision from "./assets/Vision";
+import { faChartLine, faChartPie, faRocket } from "@fortawesome/free-solid-svg-icons";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const SubIntro = () => {
   return (
-    <div className="missions">
-      <section className="mission">
+    <div className="agendas">
+
+      <section className="agenda">
         <section className="icon-text">
-          <Rocket /> <span>Mission</span>
+          <FontAwesomeIcon icon={faRocket}/> <span>Mission</span>
         </section>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
@@ -16,9 +16,10 @@ const SubIntro = () => {
           exercitationem ea modi?
         </p>
       </section>
-      <section className="mission">
+
+      <section className="agenda">
         <section className="icon-text">
-          <Vision /> <span>Vision</span>
+          <FontAwesomeIcon icon={faChartLine} /> <span>Vision</span>
         </section>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
@@ -27,9 +28,10 @@ const SubIntro = () => {
           exercitationem ea modi?
         </p>
       </section>
-      <section className="mission">
+
+      <section className="agenda">
         <section className="icon-text">
-          <Value /> <span>Value</span>
+          <FontAwesomeIcon icon={faChartPie} /> <span>Value</span>
         </section>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente,

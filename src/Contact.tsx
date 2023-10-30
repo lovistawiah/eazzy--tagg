@@ -1,6 +1,9 @@
-import Mail from "./assets/Mail";
-import Map from "./assets/Map";
-import Phone from "./assets/Phone";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faEnvelope,
+  faLocationDot,
+  faPhone,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
   return (
@@ -31,7 +34,7 @@ const Contact = () => {
       <section className="sub-section">
         <section className="info-main">
           <section className="logo-text">
-            <Phone />
+            <FontAwesomeIcon icon={faPhone} />
             <span>Phone</span>
           </section>
           <section className="info-text">
@@ -42,7 +45,7 @@ const Contact = () => {
 
         <section className="info-main">
           <section className="logo-text">
-            <Map />
+            <FontAwesomeIcon icon={faLocationDot} />
             <span>Address</span>
           </section>
           <section className="info-text">
@@ -52,7 +55,7 @@ const Contact = () => {
         </section>
         <section className="info-main">
           <section className="logo-text">
-            <Mail />
+            <FontAwesomeIcon icon={faEnvelope} />
             <span>Others</span>
           </section>
           <section className="info-text">

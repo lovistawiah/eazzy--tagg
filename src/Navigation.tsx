@@ -1,7 +1,8 @@
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars, faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 import Logo from "./assets/logo.png";
-import MenuOpen from "./MenuOpen";
-import MenuClose from "./MenuClose";
+import { Link } from "react-router-dom";
 const Navigation = () => {
   const handleMenuToggle = () => {
     setOpen(!isOpen);
@@ -11,11 +12,15 @@ const Navigation = () => {
   return (
     <>
       <nav className="nav">
-        <a href="#">
+        <Link to="/">
           <img src={Logo} alt="logo" className="menu" />
-        </a>
+        </Link>
         <div onClick={handleMenuToggle}>
-          {isOpen ? <MenuOpen /> : <MenuClose />}
+          {isOpen ? (
+            <FontAwesomeIcon icon={faBars} />
+          ) : (
+            <FontAwesomeIcon icon={faCircleXmark}  />
+          )}
         </div>
       </nav>
       <section
@@ -23,28 +28,26 @@ const Navigation = () => {
         style={{ display: !isOpen ? "block" : "none" }}
       >
         <ul>
-          <a href="">
+          <Link to="#services">
             <li>Our Services</li>
-          </a>
-          <a href="">
+          </Link>
+          <Link to="#pricing">
             <li>Pricing</li>
-          </a>
-          <a href="">
+          </Link>
+          <Link to="#team">
             <li>Team</li>
-          </a>
-          <a href="">
+          </Link>
+          <Link to="#gallery">
             <li>Gallery</li>
-          </a>
-
-          <a href="">
+          </Link>
+          <Link to="#contact">
             <li>Contact Us</li>
-          </a>
+          </Link>
           <li className="nav-btns">
             <button>Sign in</button>
           </li>
         </ul>
       </section>
-  
     </>
   );
 };
