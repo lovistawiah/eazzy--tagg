@@ -271,7 +271,7 @@ nav div {
   padding-right: 20px;
   display: flex;
   flex-wrap: wrap;
-  gap: 15px 20px;
+gap: 20px;
   justify-content: center;
   width: auto;
   margin-left: -20px;
@@ -279,7 +279,8 @@ nav div {
 }
 
 .client {
-  height: 70px;
+  width: 200px;
+  height: 100px;
   padding: 10px;
 }
 
@@ -724,7 +725,9 @@ form button:hover {
 .enquiry-text button:hover {
   background-color: var(--brand-600);
 }
-
+footer {
+  margin-top: 50px !important;
+}
 
 footer .bolder-phone {
   margin-top: 30px;
@@ -764,8 +767,8 @@ footer .copyright {
 }
 
 .social-platform img {
-  width: 24px;
-  height: 24px;
+  width: 48px;
+  height: 48px;
   object-fit: cover;
   filter: grayscale(1);
 
