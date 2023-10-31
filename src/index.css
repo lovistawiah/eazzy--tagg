@@ -31,7 +31,7 @@
   --primary-black-200: rgba(82, 82, 91, 1);
   --primary-black-300: rgba(63, 63, 70, 1);
   --primary-black-400: rgba(64, 64, 64, 1);
-  --primary-black-500: rgba(41, 37, 36, 1);
+  --primary-black-500: rgb(31, 31, 31);
   --primary-white-600: rgb(160, 160, 160);
   --primary-white-500: rgba(248, 248, 255, 1);
   --primary-white-400: rgba(245, 245, 245, 1);
@@ -53,6 +53,9 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;

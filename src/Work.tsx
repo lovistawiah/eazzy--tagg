@@ -1,3 +1,9 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import eventRegistration from "./assets/event-registration.jpg";
+import printing from './assets/printing.jpg'
+import badge from './assets/onsite badge.jpg'
+import conference from './assets/conferencing.jpg'
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 const Work = () => {
   return (
     <section className="main-section">
@@ -6,31 +12,58 @@ const Work = () => {
       <section className="desc-text">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, culpa!
       </section>
-      <section className="container">
-        <div className="slider-wrapper">
-          <div className="slider">
-            <img
-              src="https://images.unsplash.com/photo-1632395627732-005012dbc286?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHBsYW5ldHxlbnwwfHwwfHx8MA%3D%3D"
-              alt=""
-              id="slider-1"
-            />
-            <img
-              src="https://images.unsplash.com/photo-1630839437035-dac17da580d0?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBsYW5ldHxlbnwwfHwwfHx8MA%3D%3D"
-              alt=""
-              id="slider-2"
-            />
-            <img
-              src="https://images.unsplash.com/photo-1634176866089-b633f4aec882?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBsYW5ldHxlbnwwfHwwfHx8MA%3D%3D"
-              alt=""
-              id="slider-3"
-            />
-          </div>
-          <div className="slider-nav">
-            <a href="#slider-1"></a>
-            <a href="#slider-2"></a>
-            <a href="#slider-3"></a>
-          </div>
-        </div>
+      <section className="works">
+        <section className="work">
+          <img src={eventRegistration} className="fix-img-position" alt="" />
+          <section className="work-info">
+            <p className="work-type">Event registration</p>
+            <section className="work-name">
+              Contactless Event Registration
+            </section>
+            <button className="view-more">
+              view more <FontAwesomeIcon icon={faArrowRight} />
+            </button>
+          </section>
+        </section>
+
+        <section className="work">
+          <img src={badge} alt="" />
+          <section className="work-info">
+            <p className="work-type">Badges</p>
+            <section className="work-name">
+              Onsite Badge Printing
+            </section>
+            <button className="view-more">
+              view more <FontAwesomeIcon icon={faArrowRight} />
+            </button>
+          </section>
+        </section>
+
+        <section className="work">
+          <img src={printing} alt="" />
+          <section className="work-info">
+            <p className="work-type">Printing</p>
+            <section className="work-name">
+             HD Color Large Printing
+            </section>
+            <button className="view-more">
+              view more <FontAwesomeIcon icon={faArrowRight} />
+            </button>
+          </section>
+        </section>
+
+        <section className="work">
+          <img src={conference} alt="" />
+          <section className="work-info">
+            <p className="work-type">Conference</p>
+            <section className="work-name">
+              Live Attendance Tracking
+            </section>
+            <button className="view-more">
+              view more <FontAwesomeIcon icon={faArrowRight} />
+            </button>
+          </section>
+        </section>
       </section>
     </section>
   );

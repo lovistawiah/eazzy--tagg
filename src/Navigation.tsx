@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 import Logo from "./assets/logo.png";
@@ -8,23 +8,36 @@ const Navigation = () => {
     setOpen(!isOpen);
   };
   const [isOpen, setOpen] = useState(true);
+  const [bodyWidth, setBodyWidth] = useState(document.body.clientWidth);
+  const [menuIcon, setMenuIcon] = useState(true);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setBodyWidth(document.body.clientWidth);
+      bodyWidth < 1024 ? setMenuIcon(true) : setMenuIcon(false)
+      console.log(bodyWidth);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, [bodyWidth]);
 
   return (
     <>
       <nav className="nav">
         <Link to="/">
-          <img src={Logo} alt="logo" className="menu" />
+          <img src={Logo} alt="logo" />
         </Link>
-        <div onClick={handleMenuToggle}>
+        <div onClick={handleMenuToggle} style={{display: menuIcon ? 'initial': 'none'}}>
           {isOpen ? (
             <FontAwesomeIcon icon={faBars} />
           ) : (
-            <FontAwesomeIcon icon={faCircleXmark}  />
+            <FontAwesomeIcon icon={faCircleXmark} />
           )}
         </div>
       </nav>
+
       <section
-        className="mobile-nav-items"
+        className="nav-items"
         style={{ display: !isOpen ? "block" : "none" }}
       >
         <ul>

@@ -21,9 +21,9 @@ const Footer = () => {
         <section className="header-section">
           <h3>Company</h3>
           {/* make it a link */}
-          <p>Our Services</p>
-          <p>Team</p>
-          <p>Pricing</p>
+          <a href="#services">Our Services</a>
+          <a href="#team">Team</a>
+          <a href="#pricing">Pricing</a>
         </section>
 
         <section className="enquiry-text">

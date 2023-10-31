@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const SubIntro = () => {
   return (
     <div className="agendas">
-
       <section className="agenda">
         <section className="icon-text">
           <FontAwesomeIcon icon={faRocket}/> <span>Mission</span>

@@ -14,36 +14,41 @@ import { faMedal,faLightbulb, faBoltLightning, faHandshake } from '@fortawesome/
 const AboutUs = () => {
   return (
     <section className="main-section">
-      <section className="img-mask">
-        <img src={team} alt="" className="team-img" />
-      </section>
+      <div className="about-us-intro">
+        <section className="img-mask">
+          <img src={team} alt="" className="team-img" />
+        </section>
 
-      <h4 className="mini-header">Our Achievements</h4>
-      <h1 className="header">Stuff About Us</h1>
+        <div className="about-us-text">
+          <h4 className="mini-header">Our Achievements</h4>
+          <h1 className="header">Stuff About Us</h1>
 
-      <section className="desc-text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
-        eaque!
-      </section>
+          <section className="desc-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+            eaque!
+          </section>
 
-      <section className="main-info-holder">
-        <section className="info">
-          <FontAwesomeIcon icon={faLightbulb} />
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        </section>
-        <section className="info">
-          <FontAwesomeIcon icon={faMedal} />
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        </section>
-        <section className="info">
-          <FontAwesomeIcon icon={faBoltLightning} />
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        </section>
-        <section className="info">
-          <FontAwesomeIcon icon={faHandshake} />
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        </section>
-      </section>
+          <section className="main-info-holder">
+            <section className="info">
+              <FontAwesomeIcon icon={faLightbulb} />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </section>
+            <section className="info">
+              <FontAwesomeIcon icon={faMedal} />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </section>
+            <section className="info">
+              <FontAwesomeIcon icon={faBoltLightning} />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </section>
+            <section className="info">
+              <FontAwesomeIcon icon={faHandshake} />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </section>
+          </section>
+        </div>
+        
+      </div>
 
       <section className="clients">
         <section className="client">
@@ -76,33 +81,32 @@ const AboutUs = () => {
             <section>
               <h4>100+</h4>
               <p>Successful Events</p>
-              </section>
+            </section>
           </li>
           <li className="number-item">
             <section>
               <h4>80+</h4>
               <p>Happy Clients</p>
-              </section>
+            </section>
           </li>
           <li className="number-item">
             <section>
               <h4>30+</h4>
               <p>Registration Booths</p>
-              </section>
+            </section>
           </li>
           <li className="number-item">
             <section>
               <h4>10K+</h4>
               <p>Registered Participants</p>
-              </section>
+            </section>
           </li>
           <li className="number-item">
             <section>
               <h4>4</h4>
               <p>Countries Visited</p>
-              </section>
+            </section>
           </li>
-    
         </ul>
       </section>
     </section>

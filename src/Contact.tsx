@@ -16,19 +16,23 @@ const Contact = () => {
       </section>
 
       <form>
-        <div className="input">
-          <label htmlFor="name">Name</label>
-          <input type="text" id="name" placeholder="Enter your name" />
+        <div className="short-input">
+          <div className="input">
+            <label htmlFor="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" />
+          </div>
+          <div className="input">
+            <label htmlFor="email">Email</label>
+            <input type="email" id="name" placeholder="Enter your email" />
+          </div>
         </div>
-        <div className="input">
-          <label htmlFor="email">Email</label>
-          <input type="email" id="name" placeholder="Enter your email" />
-        </div>
-        <div className="input">
+
+        <div className="input textarea">
           <label htmlFor="message">Message</label>
 
-          <textarea name="" id="message"></textarea>
+          <textarea name="" id="message" placeholder="Enter message here..."></textarea>
         </div>
+
         <button className="send">Send</button>
       </form>
       <section className="sub-section">

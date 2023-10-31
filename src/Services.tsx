@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
-    <section className="main-section">
+    <section className="main-section" id="services">
       <h4 className="mini-header">We work for your best experience</h4>
       <h1 className="header">Our Services</h1>
       <section className="desc-text">
@@ -21,6 +21,7 @@ const Services = () => {
       </section>
       {/* service */}
       <section className="services">
+        
         <section className="service">
           <FontAwesomeIcon icon={faTicket} className="service-logo" />
           <h3 className="service-name">E-ticketing Solutions</h3>
@@ -114,6 +115,7 @@ const Services = () => {
             <FontAwesomeIcon icon={faArrowRight} className="link-icon" />
           </Link>
         </section>
+
       </section>
     </section>
   );

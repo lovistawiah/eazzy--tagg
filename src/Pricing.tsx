@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
 const Pricing = () => {
   return (
-    <section className="main-section">
+    <section className="main-section" id="pricing">
       <h4 className="mini-header">Pricing to fit your needs</h4>
       <h1 className="header">Pricing Plans</h1>
       <section className="desc-text">
@@ -90,7 +90,9 @@ const Pricing = () => {
 
         <section className="price">
           <h4>BUSINESS</h4>
-            <section className="popular">Popular</section>
+            <section className="ribbon">
+              <span>Popular</span>
+            </section>
           <section className="price-text">
             GHS<span className="number">25</span> / head
             <div className="line"></div>
