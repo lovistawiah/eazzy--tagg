@@ -8,33 +8,14 @@ import {
 const Contact = () => {
   return (
     <section className="main-section">
+      <div className="contacts">
+        <div className="sub-info">
       <h4 className="mini-header">Feel free to contact us</h4>
       <h1 className="header">Contact Us</h1>
       <section className="desc-text">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
         cupiditate!
       </section>
-
-      <form>
-        <div className="short-input">
-          <div className="input">
-            <label htmlFor="name">Name</label>
-            <input type="text" id="name" placeholder="Enter your name" />
-          </div>
-          <div className="input">
-            <label htmlFor="email">Email</label>
-            <input type="email" id="name" placeholder="Enter your email" />
-          </div>
-        </div>
-
-        <div className="input textarea">
-          <label htmlFor="message">Message</label>
-
-          <textarea name="" id="message" placeholder="Enter message here..."></textarea>
-        </div>
-
-        <button className="send">Send</button>
-      </form>
       <section className="sub-section">
         <section className="info-main">
           <section className="logo-text">
@@ -67,6 +48,33 @@ const Contact = () => {
           </section>
         </section>
       </section>
+        </div>
+
+      <form>
+        <div className="short-input">
+          <div className="input">
+            <label htmlFor="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" />
+          </div>
+          <div className="input">
+            <label htmlFor="email">Email</label>
+            <input type="email" id="name" placeholder="Enter your email" />
+          </div>
+        </div>
+
+        <div className="input textarea">
+          <label htmlFor="message">Message</label>
+
+          <textarea
+            name=""
+            id="message"
+            placeholder="Enter message here..."
+          ></textarea>
+        </div>
+
+        <button className="send">Send</button>
+      </form>
+      </div>
     </section>
   );
 };

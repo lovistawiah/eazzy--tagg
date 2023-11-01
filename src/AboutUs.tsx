@@ -13,12 +13,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMedal,faLightbulb, faBoltLightning, faHandshake } from '@fortawesome/free-solid-svg-icons'
 const AboutUs = () => {
   return (
-    <section className="main-section">
+    <section className="main-section about-us">
       <div className="about-us-intro">
         <section className="img-mask">
           <img src={team} alt="" className="team-img" />
         </section>
-
         <div className="about-us-text">
           <h4 className="mini-header">Our Achievements</h4>
           <h1 className="header">Stuff About Us</h1>

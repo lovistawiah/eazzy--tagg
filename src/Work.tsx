@@ -30,9 +30,7 @@ const Work = () => {
           <img src={badge} alt="" />
           <section className="work-info">
             <p className="work-type">Badges</p>
-            <section className="work-name">
-              Onsite Badge Printing
-            </section>
+            <section className="work-name">Onsite Badge Printing</section>
             <button className="view-more">
               view more <FontAwesomeIcon icon={faArrowRight} />
             </button>
@@ -43,9 +41,7 @@ const Work = () => {
           <img src={printing} alt="" />
           <section className="work-info">
             <p className="work-type">Printing</p>
-            <section className="work-name">
-             HD Color Large Printing
-            </section>
+            <section className="work-name">HD Color Large Printing</section>
             <button className="view-more">
               view more <FontAwesomeIcon icon={faArrowRight} />
             </button>
@@ -56,9 +52,28 @@ const Work = () => {
           <img src={conference} alt="" />
           <section className="work-info">
             <p className="work-type">Conference</p>
-            <section className="work-name">
-              Live Attendance Tracking
-            </section>
+            <section className="work-name">Live Attendance Tracking</section>
+            <button className="view-more">
+              view more <FontAwesomeIcon icon={faArrowRight} />
+            </button>
+          </section>
+        </section>
+
+        <section className="work">
+          <img src={badge} alt="" />
+          <section className="work-info">
+            <p className="work-type">Badges</p>
+            <section className="work-name">Onsite Badge Printing</section>
+            <button className="view-more">
+              view more <FontAwesomeIcon icon={faArrowRight} />
+            </button>
+          </section>
+        </section>
+        <section className="work">
+          <img src={badge} alt="" />
+          <section className="work-info">
+            <p className="work-type">Badges</p>
+            <section className="work-name">Onsite Badge Printing</section>
             <button className="view-more">
               view more <FontAwesomeIcon icon={faArrowRight} />
             </button>

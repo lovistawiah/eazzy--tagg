@@ -9,28 +9,32 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 const Footer = () => {
   return (
     <footer className="main-section">
-      <section className="footer-img">
-        <img src={footerLogo} alt="" />
-      </section>
-      <section className="desc-text footer-desc">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium
-        atque minima quis repudiandae temporibus, aut
-      </section>
-      <section className="sub-features">
+      <div className="sub-footer">
+        <div className="footer-logo-text">
+          <section className="footer-img">
+            <img src={footerLogo} alt="" />
+          </section>
+          
+          <section className="desc-text footer-desc">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium
+            atque minima quis repudiandae temporibus, aut
+          </section>
+        </div>
+        <section className="sub-features">
+          <section className="header-section">
+            <h3>Company</h3>
+            {/* make it a link */}
+            <a href="#services">Our Services</a>
+            <a href="#team">Team</a>
+            <a href="#pricing">Pricing</a>
+          </section>
 
-        <section className="header-section">
-          <h3>Company</h3>
-          {/* make it a link */}
-          <a href="#services">Our Services</a>
-          <a href="#team">Team</a>
-          <a href="#pricing">Pricing</a>
+          <section className="enquiry-text">
+            <h3>We love to make your Event Registration seamlessly</h3>
+            <button>Make an enquiry</button>
+          </section>
         </section>
-
-        <section className="enquiry-text">
-          <h3>We love to make your Event Registration seamlessly</h3>
-        <button>Make an enquiry</button>
-        </section>
-      </section>
+      </div>
 
       <section className="bolder-phone">
         <FontAwesomeIcon icon={faPhone} />
