@@ -7,6 +7,7 @@ const Navigation = () => {
   const toggleNavbar = () => {
     setOpen(!isOpen);
   };
+  
   const [isOpen, setOpen] = useState(true);
   return (
     <>
