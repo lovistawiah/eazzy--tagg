@@ -40,8 +40,12 @@
   --primary-white-100: rgba(255, 255, 255, 1);
   --bg: #060606;
   --link-hover: #303030;
+  --link-white-hover:rgb(235, 235, 235);
   --info-bg-color: #181818;
   --input-bg-color: rgb(44, 44, 44);
+  --info-bg-white: rgb(224, 224, 224);
+  --input-bg-white: rgb(233, 233, 233);
+  --bg-white: rgb(238, 238, 238);
 }
 
 
@@ -60,9 +64,9 @@ body {
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
   padding: 0;
+  color: var(--primary-black-200);
   margin: 0;
-  background-color: var(--bg);
-  color: white;
+  background-color: var(--bg-white);
 }
 
 nav {
@@ -117,5 +121,5 @@ svg {
 }
 
 path {
-  color: var(--primary-white-500);
+  color: var(--primary-black-500);
 }
