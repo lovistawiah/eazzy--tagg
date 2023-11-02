@@ -533,6 +533,7 @@ nav {
   width: 290px;
   height: 480px;
   padding: 20px;
+  border-radius: 5px;
   background-color: var(--info-bg-color);
   margin-top: 50px;
 }
