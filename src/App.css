@@ -1220,6 +1220,9 @@ footer .copyright {
 
 
 @media (min-width: 1024px) {
+  .navheader {
+    border-bottom: none;
+  }
   .navbar {
     position: initial;
   }
