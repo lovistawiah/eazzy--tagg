@@ -504,8 +504,13 @@ nav {
   border: 1px solid var(--brand-600);
   width: 150px;
   border-radius: 5px;
+  transition: 0.3s ease-in-out;
 }
-
+.work-info button:hover {
+  fill: var(--primary-white-500);
+  background-color: var(--brand-600);
+  color: var(--primary-white-500);
+}
 .work-info svg {
   font-size: 17px;
   padding-left: 5px;
@@ -514,7 +519,6 @@ nav {
 .work svg path {
   fill: var(--brand-600)
 }
-
 
 /* end of work */
 
