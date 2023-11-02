@@ -18,7 +18,7 @@ const Work = () => {
           <section className="work-info">
             <p className="work-type">Event registration</p>
             <section className="work-name">
-              Contactless Event Registration
+              Contactless  Registration
             </section>
             <button className="view-more">
               view more <FontAwesomeIcon icon={faArrowRight} />
