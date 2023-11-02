@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 import Logo from "./assets/logo.png";
@@ -24,24 +24,24 @@ const Navigation = () => {
           </button>
         </div>
         <ul className={`navbar-links ${!isOpen ? "active" : ""}`}>
-          <a href="/">
+          <Link to="/">
             <li>Home</li>
-          </a>
-          <a href="/">
+          </Link>
+          <Link to="/">
             <li>Our Services</li>
-          </a>
-          <a href="/">
+          </Link>
+          <Link to="/">
             <li>Pricing</li>
-          </a>
-          <a href="/">
+          </Link>
+          <Link to="/">
             <li>Team</li>
-          </a>
-          <a href="/">
+          </Link>
+          <Link to="/">
             <li>Gallery</li>
-          </a>
-          <a href="/">
+          </Link>
+          <Link to="/">
             <li>Contact Us</li>
-          </a>
+          </Link>
           
         </ul>
       </nav>
