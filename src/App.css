@@ -904,7 +904,9 @@ footer .copyright {
     cursor: pointer;
 
   }
-
+.navheader {
+  border-bottom: none;
+}
 
   .landing-page img {
     object-position: -1px -35px;
